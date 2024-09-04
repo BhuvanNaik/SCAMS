@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCAMS</title>
+    <link rel="icon" href="scamslogo-removebg-preview.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">SCAMS</a>
+        <div class="header-right">
+            <ul class="nav">
+                <li><a href="">Team</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <a href="#" class="menu" onclick="toggleMenu();"><i class='bx bx-menu-alt-right'></i></a>
+        </div>
+    </header>
+    <ul class="nav-mobile">
+        <li><a href="#">Boards</a></li>
+        <li><a href="#">Suggestion Box</a></li>
+        <!--<li><a href="#">Gallery</a></li>-->
+        <li><a href="#">About us</a></li>
+    </ul>
+    <div class="banner">
+        <a href="#" class="share"><i class='bx bxs-share-alt'></i></a>
+        <!--Triangle-->
+        <div class="triangle one">
+            <div class="flip-card">
+                <div class="flip-card-front">
+                    <img src="IMAGES/edb.jpg" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <p>Editorial Board</p>
+                    <a href="" class="play"><i class='bx bx-play-circle'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="triangle two">
+            <div class="flip-card">
+                <div class="flip-card-front">
+                    <img src="IMAGES/LCC.jpg" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <p>LCC</p>
+                    <a href="GDSC/LCC1.html" class="play"><i class='bx bx-play-circle'></i></a>
+                </div>
+            </div>
+        </div>
+          
+        <div class="triangle three">
+            <div class="flip-card">
+                <div class="flip-card-front ieee">
+                    <img src="IMAGES/Sahas.png" alt="" >
+                </div>
+                <div class="flip-card-back">
+                    <p>SAHAS</p>
+                    <a href="" class="play"><i class='bx bx-play-circle'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="triangle four video-container video-2">
+            <div class="flip-card">
+                <div class="flip-card-front">
+                    <video class="video-2" 
+                    src="trailer-2 (2).mp4"
+                    autoplay
+                    loop
+                muted></video>
+                </div>
+                <div class="flip-card-back">
+                    <p>STORY 1</p>
+                    <a href="" class="play" onclick="changeVideo('video-2')"><i class='bx bx-play-circle'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="triangle five video-container video">
+            <div class="flip-card">
+                <div class="flip-card-front">
+                    <video class="video-1" 
+                    src="trailer-1 (2).mp4"
+                    autoplay
+                    loop
+                muted></video>
+                </div>
+                <div class="flip-card-back">
+                    <p>STORY 3</p>
+                    <a href="" class="play" onclick="changeVideo('video-1')"><i class='bx bx-play-circle'></i></a>
+                </div>
+            </div>
+        </div> 
+
+        <div class="triangle six">
+            <div class="flip-card">
+                <div class="flip-card-front">
+                    <img src="IMAGES/csi.jpg" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <p>CSI</p>
+                    <a href="" class="play"><i class='bx bx-play-circle'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="triangle seven">
+            <div class="flip-card">
+                <div class="flip-card-front">
+                    <img src="IMAGES/iic.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <p>CSI</p>
+                    <a href="" class="play"><i class='bx bx-play-circle'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!--Inverse Triangle-->
+        <div class="triangle-inverse one">
+            <div class="flip-card">
+                <div class="flip-card-front">
+                    <img src="IMAGES/ieee1.jpg" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <a href="" class="play"><i class='bx bx-play-circle'></i></a>
+                                        <p>IEEE</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="triangle-inverse two">
+            <div class="flip-card">
+                <div class="flip-card-front">
+                    <img src="IMAGES/gdsc1.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <a href="" class="play"><i class='bx bx-play-circle'></i></a>
+                    <p>GDSC</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="triangle-inverse three video-container video-3 active">
+            <div class="flip-card">
+                <div class="flip-card-front">
+                    <video class="video-3" 
+                    src="trailer-3 (2).mp4"
+                    autoplay
+                    loop
+                muted></video>
+                </div>
+                <div class="flip-card-back">
+                    <a href="" class="play" onclick="changeVideo('video-3')"><i class='bx bx-play-circle'></i></a>
+                    <p>STORY 2</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="triangle-inverse four">
+            <div class="flip-card">
+                <div class="flip-card-front">
+                    <img src="IMAGES/tesla.jpg" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <a href="" class="play"><i class='bx bx-play-circle'></i></a>
+                    <p>TESLA</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="triangle-inverse five">
+            <div class="flip-card">
+                <div class="flip-card-front">
+                    <img src="IMAGES/photoon.jpg" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <a href="" class="play"><i class='bx bx-play-circle'></i></a>
+                    <p>PHOTOON</p>
+
+                </div>
+            </div>
+        </div>
+        <!--Banner Title-->
+        <div class="banner-title">
+            <h1>S C A <img src="scamslogo-removebg-preview.png" alt="D" class="text-special">M S</h1>
+            <span class="subtitle">Unite . Engage . Excel</span>
+        </div>
+        <!--Banner Background video List-->
+        <div class="bg-video-list">
+            <video class="bg-video video-1" src="trailer-3.mp4"
+            autoplay
+            loop
+            muted></video>
+            <video class="bg-video video-2 active" src="trailer-3.mp4"
+            autoplay
+            loop
+            muted></video>
+            <video class="bg-video video-3 active" src="trailer-3.mp4"
+            autoplay
+            loop
+            muted></video>
+        </div>
+        <!--Banner Content-->
+        <div class="content">
+            <a href="#" class="more">Learn More<i class='bx bxs-right-arrow-alt'></i></a>
+            <p></p>
+        </div> 
+    <!--Social icons-->
+    <ul class="sci">
+        <li><a href="#"><i class='bx bxl-meta' ></i></a></li>
+        <li><a href="https://www.instagram.com/ishowspeed/?hl=en"><i class='bx bxl-instagram' ></i></a></li>
+        <li><a href="https://www.youtube.com/c/ISHOWSPEED"><i class='bx bxl-youtube' ></i></a></li>
+    </ul>
+</div>
+
+      <script src="./JS/main.js"></script>
+</body>
+</html>
